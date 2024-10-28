@@ -45,10 +45,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+![Opera Snapshot_2024-10-28_194031_www youtube com](https://github.com/user-attachments/assets/67fae157-3fda-419f-b83d-4727f739e0bb)
+
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+4. Configure Settings: Rename include/ost-sampleconfig.php to include/ost-config.php and update database credentials in this file.
+5. Set Permissions: Ensure the include and attachments folders are writable by your web server.
+6. Access Installation Wizard: Open your web browser and navigate to http://localhost/osticket to start the installation.
 </p>
 <br />
 
