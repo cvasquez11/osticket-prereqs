@@ -59,9 +59,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+![hyhhyhyyh](https://github.com/user-attachments/assets/c00b463c-4659-41e4-8435-862e73ff615d)
+
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+7. Follow Installation Steps: Fill in the required fields in the installation wizard, including database details and admin account information.
+8. Complete Installation: After the setup, follow prompts to finalize the installation.
+9. Remove Setup Files: Delete the setup/ directory for security reasons.
 </p>
 <br />
