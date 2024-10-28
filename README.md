@@ -37,10 +37,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 >
 </p>
-<p>
-1. Download osTicket: Get the latest version from the osTicket website.
-2. Extract Files: Unzip the downloaded file to your web server's document root
-3. Create Database: Open phpMyAdmin (via XAMPP/WAMP) and create a new database for osTicket.
+<p> 
+1.  Download osTicket: Get the latest version from the osTicket website.
+2.  Extract Files: Unzip the downloaded file to your web server's document root
+3.  Create Database: Open phpMyAdmin (via XAMPP/WAMP) and create a new database for osTicket.
 </p>
 <br />
 
