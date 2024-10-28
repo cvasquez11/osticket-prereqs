@@ -45,7 +45,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-![Opera Snapshot_2024-10-28_194031_www youtube com](https://github.com/user-attachments/assets/67fae157-3fda-419f-b83d-4727f739e0bb)
+![snapshot 333](https://github.com/user-attachments/assets/7acfcc5a-ff8d-45fd-80e2-ea57e5e58e00)
+
 
 <p>
 
