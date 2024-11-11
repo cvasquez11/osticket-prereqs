@@ -29,44 +29,94 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Mail Server: For email functionality 
 
 <h2>Installation Steps</h2>
-
 <p>
+<h3>Step 1: Download osTicket: Get the latest version from the osTicket website.</h3>
+  
+![snapshot](https://github.com/user-attachments/assets/da8ba679-06cb-49a5-8a2d-f289cf5ab521)
+
+>
+<p> 
+<br />
+<br />
+<p>
+<h3>Step 2: Unzip the osTicket File</h3>
+
+1. Right-click the downloaded .zip file (example -> osTicket-vX.X.X.zip).</p>
+2. Select Extract All and choose a destination folder (example -> C:\osticket).</p>
+   
+  
+![snapshot](https://github.com/user-attachments/assets/da8ba679-06cb-49a5-8a2d-f289cf5ab521)
+
+>
+<p> 
+<br />
+<br /> 
+<p>
+<h3>Step 3: Install XAMPP (Local Server)</h3>
+
+1. Download and install XAMPP from XAMPP's offical website</p>
+2. During installation, select Apache and MySQL for the services.</p>
+3. Once installed, open the XAMPP Control Panel and start both Apache and MySQL.</p>
+
+  
+![snapshot](https://github.com/user-attachments/assets/da8ba679-06cb-49a5-8a2d-f289cf5ab521)
+
+>
+<p> 
+<br />
+<br /> 
+<p>
+<h3>Step 4: Move osTicket Files to XAMPP's Document Root</h3>
+  
+1. Open File Explorer and go to the XAMPP document root, which is usually located at:
+C:\xampp\htdocs\.</p>
+2. Copy the extracted osTicket folder and paste it into the htdocs directory.</p>
+  
+![snapshot](https://github.com/user-attachments/assets/da8ba679-06cb-49a5-8a2d-f289cf5ab521)
+
+>
+<p> 
+<br />
+<br /> 
+<p>
+<h3>Step 5: Create a MySQL Database for osTicket</h3>
+  
+1. Open your web browser and go to: http://localhost/phpmyadmin/</p>
+2. Click on Databases and create a new database (example -> osticket).</p>
+3. Create a user with full privileges for this database.
+  
+![snapshot](https://github.com/user-attachments/assets/da8ba679-06cb-49a5-8a2d-f289cf5ab521)
+
+
+>
+<p> 
+<br />
+<br /> 
+<p>
+<h3>Step Step 6: Run the osTicket Installation Wizard</h3>
+
+1. Open your browser and go to: http://localhost/osticket/</p>
+2. The osTicket installation wizard will open. Follow the on-screen steps:
+   - Enter the database details (name, user, and password).
+   - Set up the admin email and SMTP settings.</p>
+3. After installation, delete the setup folder for security.     
+       
+
 
 ![snapshot](https://github.com/user-attachments/assets/da8ba679-06cb-49a5-8a2d-f289cf5ab521)
 
 
 >
 <p> 
-  
-1. Download osTicket: Get the latest version from the osTicket website.
-2. Extract Files: Unzip the downloaded file to your web server's document root.
-3. Create Database: Open phpMyAdmin (via XAMPP/WAMP) and create a new database for osTicket.
-</p>
 <br />
-
-<p>
+<br /> 
 
 ![tthhrhrhr](https://github.com/user-attachments/assets/b7251a6c-9ef1-4c27-862f-f5e8affa6bb2)
 
 
 
-<p>
 
-4. Configure Settings: Rename include/ost-sampleconfig.php to include/ost-config.php and update database credentials in this file.
-5. Set Permissions: Ensure the include and attachments folders are writable by your web server.
-6. Access Installation Wizard: Open your web browser and navigate to http://localhost/osticket to start the installation.
-</p>
-<br />
-
-<p>
 
   ![hyhhyhyyh](https://github.com/user-attachments/assets/00bbb412-a948-41aa-8d77-89418e5b1ef7)
 
 
-<p>
-
-7. Follow Installation Steps: Fill in the required fields in the installation wizard, including database details and admin account information.
-8. Complete Installation: After the setup, follow prompts to finalize the installation.
-9. Remove Setup Files: Delete the setup/ directory for security reasons.
-</p>
-<br />
