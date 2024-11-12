@@ -30,7 +30,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 <p>
-<h3>Step 1: Download osTicket: Get the latest version from the osTicket website.</h3>
+<h3>Step 1: Download osTicket</h3>
+
+1. Get the latest version from the osTicket website.
   
 ![snapshot](https://github.com/user-attachments/assets/da8ba679-06cb-49a5-8a2d-f289cf5ab521)
 
@@ -45,7 +47,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 2. Select Extract All and choose a destination folder (example -> C:\osticket).</p>
    
   
-![snapshot](https://github.com/user-attachments/assets/da8ba679-06cb-49a5-8a2d-f289cf5ab521)
+![step 2 image](https://github.com/user-attachments/assets/97f1a53f-809c-401c-b52b-92044fc21670)
+
 
 >
 <p> 
@@ -54,12 +57,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <h3>Step 3: Install XAMPP (Local Server)</h3>
 
-1. Download and install XAMPP from XAMPP's offical website</p>
+1. Download and install XAMPP from XAMPP's offical website.</p>
 2. During installation, select Apache and MySQL for the services.</p>
 3. Once installed, open the XAMPP Control Panel and start both Apache and MySQL.</p>
 
-  
-![snapshot](https://github.com/user-attachments/assets/da8ba679-06cb-49a5-8a2d-f289cf5ab521)
+![step 3 image](https://github.com/user-attachments/assets/7d3b87f6-9eb0-4b74-9676-f43da7c738af)
 
 >
 <p> 
@@ -68,11 +70,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <h3>Step 4: Move osTicket Files to XAMPP's Document Root</h3>
   
-1. Open File Explorer and go to the XAMPP document root, which is usually located at:
-C:\xampp\htdocs\.</p>
+1. Open File Explorer and go to the XAMPP document root, which is usually located at -> C:\xampp\htdocs\</p>
 2. Copy the extracted osTicket folder and paste it into the htdocs directory.</p>
   
-![snapshot](https://github.com/user-attachments/assets/da8ba679-06cb-49a5-8a2d-f289cf5ab521)
+![step 4 image](https://github.com/user-attachments/assets/3126b1a9-7e13-446f-b4bf-53c815ad7999)
 
 >
 <p> 
@@ -81,12 +82,11 @@ C:\xampp\htdocs\.</p>
 <p>
 <h3>Step 5: Create a MySQL Database for osTicket</h3>
   
-1. Open your web browser and go to: http://localhost/phpmyadmin/</p>
-2. Click on Databases and create a new database (example -> osticket).</p>
+1. Open your web browser and go to -> http://localhost/phpmyadmin/</p>
+2. Click on Databases and create a new database (example -> osticket)</p>
 3. Create a user with full privileges for this database.
   
-![snapshot](https://github.com/user-attachments/assets/da8ba679-06cb-49a5-8a2d-f289cf5ab521)
-
+![step 5 image](https://github.com/user-attachments/assets/d16be413-cdde-4407-b788-f7bafe9ab59c)
 
 >
 <p> 
