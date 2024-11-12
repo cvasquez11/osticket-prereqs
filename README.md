@@ -94,28 +94,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <h3>Step Step 6: Run the osTicket Installation Wizard</h3>
 
-1. Open your browser and go to: http://localhost/osticket/</p>
+1. Open your browser and go to -> http://localhost/osticket/</p>
 2. The osTicket installation wizard will open. Follow the on-screen steps:
    - Enter the database details (name, user, and password).
    - Set up the admin email and SMTP settings.</p>
+
+![step 6 image](https://github.com/user-attachments/assets/1f52f139-247d-4d1f-aef7-f3d5340a583c)
+
 3. After installation, delete the setup folder for security.     
        
-
-
-![snapshot](https://github.com/user-attachments/assets/da8ba679-06cb-49a5-8a2d-f289cf5ab521)
-
-
->
-<p> 
-<br />
-<br /> 
-
-![tthhrhrhr](https://github.com/user-attachments/assets/b7251a6c-9ef1-4c27-862f-f5e8affa6bb2)
-
-
-
-
-
-  ![hyhhyhyyh](https://github.com/user-attachments/assets/00bbb412-a948-41aa-8d77-89418e5b1ef7)
-
-
