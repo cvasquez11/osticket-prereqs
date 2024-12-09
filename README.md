@@ -57,7 +57,19 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3>Step 3: Install XAMPP (Local Server)</h3>
 
 1. Download and install XAMPP from XAMPP's offical website.</p>
+
+![image](https://github.com/user-attachments/assets/c0e7131d-3ef3-4886-8162-5ddb811c3ad8)
+
+<br />
+<br />
+<p>
 2. During installation, select Apache and MySQL for the services.</p>
+
+![image](https://github.com/user-attachments/assets/a63da156-0eb7-49d7-8cd2-f05234c2c37c)
+
+<br />
+<br />
+<p>
 3. Once installed, open the XAMPP Control Panel and start both Apache and MySQL.</p>
 
 ![step 3 image](https://github.com/user-attachments/assets/7d3b87f6-9eb0-4b74-9676-f43da7c738af)
